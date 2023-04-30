@@ -1,0 +1,525 @@
+
+
+*{
+
+    padding: relative;
+    margin: 0%;
+    padding: 0;
+    font-family: 'Candara';
+    box-sizing: border-box;
+    border:none;
+}
+
+
+@media screen and (max-width:991px){
+
+    html{
+        font-size: 60%;
+    }
+
+
+    .section-1{
+        padding:1.5rem 2rem;
+    }
+    .section-2{
+        padding:1.5rem 2rem;
+        
+    }
+    .section-4{
+        padding:1.5rem 2rem;
+    }
+    .section-5{
+        padding:1.5rem 2rem;
+    }
+
+
+
+    .section-1 .Sobre-nós{
+        position: relative;
+        top:100%; right: -100%;
+        width: 30rem;
+        height: calc(100vh - 9.5rem);
+    }
+
+  
+}
+@media screen and (max-width:450px){
+    html{
+        font-size: 50%;
+    }
+    section{
+        padding: auto;
+        
+    }
+    
+}
+
+
+
+
+html::-webkit-scrollbar{
+    width: 10px;
+}
+
+html::-webkit-scrollbar-track{
+background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+ background-color: rgb(22, 21, 21);
+ border-radius: 50px;
+}
+
+#menu-h{
+   list-style: none;
+   padding: 0;  
+   background-color: black;
+   
+}
+
+#menu-h li{
+    display: inline; 
+
+ }
+
+ #menu-h li a{
+   color: white;
+   padding: 20px;
+   text-decoration: none;
+   display: inline-block;
+   font: 'Arial';
+   transition: 0.3s;
+
+ }
+ #menu-h li :hover{
+    text-transform: capitalize;
+    color:#ff00009c;
+    border-bottom: solid 1px;
+    
+ }
+
+ hr{
+    border-bottom: solid 0.1px;
+    color:white;
+    opacity: 0.5;
+
+   
+ }
+
+body{
+     width: 100%;
+     min-width: 100vh;
+     background-color: black;
+     position: relative;
+     
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    
+
+}
+section div.backgound-section{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: black;
+
+}
+
+section div.backgound-section video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    background-color: black;
+}
+
+section div.box{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9),transparent);
+    display: flex;
+    align-items: center;
+    justify-content: inline;
+   
+    
+}
+
+section div.box div.conteudo{
+    width: 70%;
+    height: 66%;
+   
+    
+    
+
+}
+section div.title{
+    
+    padding: 10px;
+    margin-left: 5px;
+
+}
+
+section div.title h1{
+  color:#ffffff;
+  font-size: 30px;
+
+}
+
+section div.box img{
+    width: 60%;
+    min-width: 390px;
+   position: relative;
+    opacity: 0.6;
+}
+
+section div.title button{
+    margin-top: 0px;
+    background-color: #ff00006c;
+    color:white;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    cursor: pointer;
+    position: relative;
+
+
+}
+section div.title button:hover{
+   letter-spacing: 1px;
+   transition: 0.3 all;
+}
+
+section div.box img p{
+    color: rgb(0, 0, 0);
+   font-size: 24px;
+   line-height: 32px;
+} 
+
+    .section div.box{
+
+        width: 100%;
+       padding: 2%;
+        background:rgba(0, 0, 0, 0.4);
+
+        
+    }
+    
+   .section div.box div.conteudo{
+        width: 100%;
+        text-align: center;
+    
+    }
+
+
+.section-1 h1 {
+    align-items: center;
+    text-align: center;
+    color:white;
+   font-size: 3rem;
+}
+
+.section-1 span {
+color: #d30505d0;
+
+}
+.section-1{
+    padding: 5rem;
+    position: relative;
+
+}
+.Sobre-nós{
+    display: flex;
+    align-items: center;
+    background-color: rgb(14, 13, 13);
+    max-width: 100%;
+    width: 100%;
+    margin-top: 2rem;
+}
+.Sobre-nós img{
+ 
+ width: 850px;
+ height: 580px;
+ opacity: 0.5;
+}
+
+.Sobre-nós-title{
+margin-left: 1.3rem;
+margin-right: 1.3rem;
+color: white;
+
+}
+.Sobre-nós-title h2{
+    color:#ff0000a8;
+    font-size: 2rem;
+}
+.Sobre-nós-title p{
+ font-size: 24px;
+}
+
+.Sobre-nós-title button{
+    margin-top: 0px;
+    background-color: #ff00006c;
+    color:white;
+    font-size: 1.2rem;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+.Sobre-nós-title button:hover{
+    letter-spacing: 1px;
+    transition: 0.3 all;
+    
+}
+
+.section-2 h1{
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-size: 3rem;
+    position: relative;
+   
+}
+.section-2 span{
+    color:#ff0000a8;
+
+}
+.Container-card-1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.card-img{
+    border: solid 1px rgb(rgb(252, 252, 252), rgb(252, 252, 252), rgb(255, 255, 255));
+    padding: 5rem;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+    width: 25rem;
+    height: 23rem;
+}
+.card-img img{
+    width: 300px;
+    height: auto;
+}
+.card-img h3{
+    font-size: 1.5rem;
+    color: white;
+}
+.card-img p{
+    color: #ccc;
+    font-size: 1.8rem;
+    margin-top: 1rem;
+
+}
+.card-img button {
+    margin-top: 1rem;
+    background-color: #ff0000a8;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    cursor: pointer;
+
+}
+.card-img:hover{
+    transform: scale(1.1);
+    transition: 0.5s all;
+}
+#Container-card-2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+
+}
+
+.section-4{
+    padding: 5rem;
+    position: relative;
+    align-items: center;
+}
+.section-4 h1{
+    align-items:center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    margin-top: 3rem;
+}
+
+.section-4 span{
+    color: rgb(179, 6, 6);
+
+}
+.container-clientes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding-top: 3rem;
+    margin-bottom: 2rem;
+
+}
+.paragrafo{
+    border:solid 1px white;
+    padding: 3rem;
+    width: 28rem;
+
+}
+.star a{
+   color:rgb(255, 255, 255);
+   font-size: 100px;
+}
+.paragrafo img{
+    width: 150px;
+    height: auto;
+    margin-top: 1rem;
+}
+.paragrafo p{
+    color: #ccc;
+    line-height: 2rem;
+    margin-top: 1rem;
+}
+.paragrafo h4{
+    color:#fcfcfc;
+    margin-top: 2rem;
+    font-size: 1rem;
+
+}
+.icones a{
+    color: #c90c0c;
+    font-size: 25px;
+    margin-bottom: 6rem;
+}
+.section-5{
+    padding: 0 10rem 0 10rem;
+    margin-top: 100px;
+    position: relative;
+
+}
+.section-5 h1{
+    align-items:center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    margin-top: 3rem; 
+}
+.container-form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+form{
+    background-color: rgba(112, 4, 4, 0.76);
+    padding: 1rem;
+    width: 50rem;
+    height: auto;
+}
+form h3{
+    text-align: center;
+    color:white;
+    font-size: 2rem;
+}
+.section-5 .container-form .map{
+  height: 387px;
+  width: 390px;
+  object-fit: cover;
+  position: relative;
+}
+.inputform{
+    display: flex;
+    align-items: center;
+    padding: 0 0 0;
+    margin-top: 1rem;
+    background: black;
+}
+
+.inputform input{
+    width: 100%;
+    padding: 1.5rem;
+    background-color: black;
+}
+.inputform span{
+    color:#fff;
+    font-size: 2rem;
+    padding-left: 2rem;
+}
+form button{
+    margin-top: 15px;
+    background-color: #020202;
+    color:white;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    cursor: pointer;
+   text-align: center;
+   align-items: center;
+}
+form button:hover{
+    letter-spacing: 1px;
+        transition: 0.3 all;
+
+ }
+
+
+
+ .footer{
+    background:var(--black);
+    text-align: center;
+}
+
+.footer .share{
+    padding:1rem 0;
+}
+
+.footer .share a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color:#fff;
+    border:var(--border);
+    margin:.3rem;
+    border-radius: 50%;
+}
+
+.footer .share a:hover{
+    background-color: var(--main-color);
+}
+
+.footer .links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:2rem 0;
+    gap:1rem;
+}
+
+.footer .links a{
+    padding:.7rem 2rem;
+    color:#fff;
+    border:var(--border);
+    font-size: 2rem;
+}
+
+.footer .links a:hover{
+    background:var(--main-color);
+}
+
+.footer .credit{
+    font-size: 2rem;
+    color:#fff;
+    font-weight: lighter;
+    padding:1.5rem;
+}
+
+.footer .credit span{
+    color:var(--main-color);
+}
+
