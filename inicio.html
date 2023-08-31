@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/iconn.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/iconn.ico" type="image/x-icon">
+    <title>Over Road</title>
+</head>
+<style>
+*{
+
+padding: relative;
+margin: 0%;
+padding: 0;
+font-family: 'Candara';
+box-sizing: border-box;
+border:none;
+}   
+body{
+    background-color: black;
+}
+#menu-h{
+ list-style: none;
+ padding: 0;  
+ background-color: black;
+ 
+}
+
+
+#menu-h li{
+  display: inline; 
+
+}
+
+#menu-h li a{
+ color: white;
+ padding: 20px;
+ text-decoration: none;
+ display: inline-block;
+ font: 'Arial';
+ transition: 0.3s;
+ 
+
+}
+#menu-h li :hover{
+  text-transform: capitalize;
+  color:#ff00009c;
+  border-bottom: solid 1px;
+  
+}
+section{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    
+
+}
+
+section div.backgound-section{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: black;
+
+}
+
+section div.backgound-section video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  background-color: black;
+}
+#menu-h button{
+ margin-left: 83rem;
+  background-color: #000000a8;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 15px;
+  cursor: pointer;
+
+
+}
+#menu-h button:hover{
+  letter-spacing: 1px;
+  transition: 0.3 all;
+  color: #ff00009c;
+}
+section div.box{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9),transparent);
+    display: flex;
+    align-items: center;
+    justify-content: inline;
+   
+    
+}
+
+section div.box div.conteudo{
+    width: 70%;
+    height: 66%;
+   
+    
+    
+
+}
+section div.title{
+    
+    padding: 0px;
+    margin-left: 3px;
+    
+}
+
+section div.title h1{
+  color:#ffffff;
+  font-size: 26px;
+  text-align: left;
+  
+
+}
+
+section div.box img{
+    width: 70%;
+    min-width: 25px;
+   position:relative;
+   right: 25px;
+   
+    opacity: 0.6;
+}
+
+section div.title button{
+    margin-top: 0px;
+    background-color: #ff00006c;
+    color:white;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    cursor: pointer;
+    position: relative;
+
+
+}
+section div.title button:hover{
+   letter-spacing: 1px;
+   transition: 0.3 all;
+}
+
+section div.box img p{
+    color: rgb(0, 0, 0);
+   font-size: 24px;
+   line-height: 32px;
+} 
+
+    .section div.box{
+
+        width: 100%;
+       padding: 2%;
+        background:rgba(0, 0, 0, 0.4);
+
+        
+    }
+    
+   .section div.box div.conteudo{
+        width: 100%;
+        text-align: center;
+    
+    }
+    hr{
+    border-bottom: solid 0.1px;
+    color:white;
+    opacity: 0.5;
+
+   
+ }
+
+ .section-4{
+    padding: 5rem;
+    position: relative;
+    align-items: center;
+}
+.section-4 h1{
+    align-items:center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    
+}
+
+.section-4 span{
+    color: rgb(179, 6, 6);
+
+}
+.container-clientes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding-top: 3rem;
+    margin-bottom: 2rem;
+
+}
+.paragrafo{
+    border:solid 1px white;
+    padding: 3rem;
+    width: 28rem;
+
+}
+.star a{
+   color:rgb(255, 255, 255);
+   font-size: 100px;
+}
+.paragrafo img{
+    width: 150px;
+    height: auto;
+    margin-top: 1rem;
+}
+.paragrafo p{
+    color: #fcfcfce5;
+    line-height: 2rem;
+    margin-top: 1rem;
+    font-size: 20px;
+}
+.paragrafo h4{
+    color:#fcfcfc;
+    margin-top: 2rem;
+    font-size: 1rem;
+
+}
+.icones a{
+    color: #c90c0c;
+    font-size: 25px;
+    margin-bottom: 6rem;
+}
+.section-5{
+    padding: 0 10rem 0 10rem;
+    margin-top: 100px;
+    position: relative;
+
+}
+.section-5 h1{
+    align-items:center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    margin-top: 3rem; 
+}
+.container-form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+form{
+    background-color: rgba(112, 4, 4, 0.76);
+    padding: 1rem;
+    width: 50rem;
+    height: auto;
+}
+form h3{
+    text-align: center;
+    color:white;
+    font-size: 2rem;
+}
+
+.section-5 .container-form .map{
+  height: 450px;
+  width: 626px;
+  object-fit: cover;
+  position: relative;
+}
+.inputform{
+    display: flex;
+    align-items: center;
+    padding: 0 0 0;
+    margin-top: 1rem;
+    background: black;
+}
+
+.inputform input{
+    width: 100%;
+    padding: 1.5rem;
+    background-color: black;
+    color: #ffffff;
+}
+.inputform span{
+    color:#ffffff;
+    font-size: 2rem;
+    padding-left: 2rem;
+}
+form button{
+    margin-top: 15px;
+    background-color: #020202;
+    color:white;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    cursor: pointer;
+   text-align: center;
+   align-items: center;
+}
+form button:hover{
+    letter-spacing: 1px;
+        transition: 0.3 all;
+
+ }
+
+
+ .footer-diagonal {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    line-height: 0;
+    
+}
+.footer-diagonal svg {
+    
+    float: left;
+    display: block;
+    width: calc(100% + 1px);
+    height: 45px;
+    transform: rotateY(180deg);
+    background-color: #111111;
+}
+.footer-diagonal .shape-fill {
+    fill: #5c0808;
+}
+.main_footer          { background-color:#111111; color:#fff; font-size:1em; }
+.main_footer .content { float:left; width:80%; margin:0 10%; padding: 2em 0; }
+.container { float:left; width:100%; }
+.colfooter { 
+ 
+  width:100%; 
+  height:auto;
+  min-height: 100%; 
+  float:left; 
+  margin-bottom:2em;
+}
+.colfooter ul        { width:100%; float:left; }
+.colfooter ul li     { padding:0.2em 0em; }
+.colfooter ul li a   { text-decoration:none; color:#ffffff; font-size:1em; transition:0.2s; }
+.colfooter ul li a i { font-size:0.5em; }
+.colfooter ul li a:hover { color:#b10505; }
+.colfooter .titleFooter   { 
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3em;
+    color: #ffffff;
+    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
+    border-bottom: 1px #000000 solid;
+}
+.colfooter p  { 
+  font-family: 'Lato', sans-serif; 
+  color:#fffdfd; 
+  font-size:1em; 
+  height:25px; 
+}
+.colfooter .redesocial { 
+    
+    color: #fdfbfb;
+    float: left;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    transition:0.2s;
+}
+.colfooter .redesocial:hover { 
+    
+    color: #b10505;
+    transition:0.2s;
+}
+.main_footer_copy          { background-color:#1f1d1d; width:100%; float:left; font-family: 'Lato', sans-serif; text-align:center; padding:1.5em 0em; }
+.main_footer_copy .content { float:left; width:80%; margin:0 10%; padding:20px 0; border-top:1px #464646 solid; }
+.main_footer_copy p { font-size:1em; color:#ffffff; height:20px; }
+.main_footer_copy .m-b-footer   { margin-bottom:0.5em; }
+.main_footer_copy .by   { font-size:0.96em; }
+.main_footer_copy .by a       { color:#b30808; text-decoration:none; font-weight:600; transition:0.2s; }
+.main_footer_copy .by a:hover { text-decoration:underline; color:#b10505 }
+.main_footer_copy .by i { font-size:0.96em; margin-right:3px; color:#e82626; }
+/*Responsivo*/
+/*960PX BREAKPOINT*/
+@media (min-width:60em){
+  .footer-diagonal svg         { width: calc(100% + 1.3px); height: 160px; }
+  .main_footer .content        { padding: 2em 0; }
+  .colfooter .titleFooter      { border-bottom: 0px; }
+  .colfooter                   { width:30%; min-height:200px; margin-right:5%; margin-bottom:0; border-right: 1px #424242 solid; }
+  .colfooter:nth-of-type(3n+0) { margin-right:0; border-right:0;}
+}
+
+</style>
+
+<body>
+     <ul id="menu-h" id="inicio">
+
+        <li><a href ="#inicio">•Inicio</a></li>
+        <li><a href ="#contato">•Contato</a></li>
+        <li><a href ="index.html">•Catálogo</a></li>
+        
+     </ul>
+     <hr>
+
+
+    <section>
+        <div class="backgound-section">
+            <video src="img/video-background.mp4" autoplay loop muted></video>
+
+        </div>
+        <div class="box">
+            <div class="conteudo">
+                <img src="img/logo-sf.png" alt="Logotipo OverRopad">
+
+                <div class="title">
+                    <h1>• Encontre uma moto custom que seja incrível para você •</h1><br>
+                
+                    <h1> CONSULTE MOTOS NOVAS, SEMINOVAS E USADAS COM O MELHOR PREÇO </h1>
+                    <br><a href ="index.html"><button> →Confira o catálogo</button></a>
+                    
+        
+                </div>
+            </div>
+        </div>
+       
+    </section>
+
+    <section class="section-4" id="analisecliente"> 
+        <h1>▹ ANÁLISE DOS <span>CLIENTES</span></h1><br> <br>
+        <div class="icones">
+        <div class="container-clientes">
+         <div class="paragrafo">
+            <div class="info-img">
+                <img src="img/quote-img.png" alt="info">
+            </div>
+            <p>★★★★★<br>Serviço realizado muito perfeito, muito cuidado e atenção nos mínimos detalhes.
+                 Funcionários muito atenciosos e educados. Sem contar a qualidade e cuidado com o serviço e o melhor de tudo, no menor prazo possível. 
+                 Recomendo 100%. Muito obrigado pelo serviço!!</p>
+
+                 <img src="img/client1.jpg" alt="cliente1">
+                 <h4>Antônio Afonso</h4>
+                 <div class="star">
+                    <a href="#"><ion-icon name="star-outline"></ion-icon></a>
+                    <a href="#"><ion-icon name="star-outline"></ion-icon></a>
+                    <a href="#"><ion-icon name="star-outline"></ion-icon></a>
+                    <a href="#"><ion-icon name="star-outline"></ion-icon></a>
+                    <a href="#"><ion-icon name="star-outline"></ion-icon></a>
+
+                 </div>
+
+
+         </div>
+
+
+        
+
+        <div class="paragrafo">
+            <div class="info-img">
+                <img src="img/quote-img.png" alt="info">
+            </div>
+            <p>★★★★★<br>Serviço realizado muito perfeito, muito cuidado e atenção nos mínimos detalhes.
+                Funcionários muito atenciosos e educados. Sem contar a qualidade e cuidado com o serviço e o melhor de tudo, no menor prazo possível. 
+                Recomendo 100%. Muito obrigado pelo serviço!!</p>
+
+                 <img src="img/client2.png" alt="cliente2">
+                 <h4>Edsson Assis</h4>
+                 <div class="star">
+                    <a href="#"><ion-icon name="star-outline"></ion-icon></a>
+                    <a href="#"><ion-icon name="star-outline"></ion-icon></a>
+                    <a href="#"><ion-icon name="star-outline"></ion-icon></a>
+                    <a href="#"><ion-icon name="star-outline"></ion-icon></a>
+                    <a href="#"><ion-icon name="star-outline"></ion-icon></a>
+                    
+                 </div>
+
+
+         </div>
+
+         <div class="paragrafo">
+            <div class="info-img">
+                <img src="img/quote-img.png" alt="info">
+            </div>
+            <p>★★★★★<br>Serviço realizado muito perfeito, muito cuidado e atenção nos mínimos detalhes.
+                Funcionários muito atenciosos e educados. Sem contar a qualidade e cuidado com o serviço e o melhor de tudo, no menor prazo possível. 
+                Recomendo 100%. Muito obrigado pelo serviço!!</p>
+
+                 <img src="img/client3.jpg" alt="cliente3">
+                 <h4>Wesley Alves</h4>
+                 <div class="star">
+                    <a href="#"><ion-icon name="star-outline"></ion-icon></a>
+                    <a href="#"><ion-icon name="star-outline"></ion-icon></a>
+                    <a href="#"><ion-icon name="star-outline"></ion-icon></a>
+                    <a href="#"><ion-icon name="star-outline"></ion-icon></a>
+                    <a href="#"><ion-icon name="star-outline"></ion-icon></a>
+                    
+                 </div>
+
+
+         </div>
+        </div>
+        </div>
+
+    </section>
+
+    <section class="section-5" id="contato">
+        
+        <h1> CONTATOS</h1>
+    <div class="container-form">
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.684094915975!2d-74.0739024987659!3d4.6503165245992575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f98de8ff788e5%3A0xc3a52f4648a541dd!2sLA%20Road%20Store!5e0!3m2!1spt-BR!2sbr!4v1681682718149!5m2!1spt-BR!2sbr"allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+        <form>
+            <h3>ENTRAR EM CONTATO</h3>
+            <br>
+            <br>
+            <div class="inputform">
+                <span><ion-icon name="person-outline"></ion-icon></span>
+                <input type="text" placeholder="nome">
+            </div>
+
+
+
+            <div class="inputform">
+                <span><ion-icon name="paper-plane-outline"></ion-icon></span>
+                <input type="email" placeholder="email">
+            </div>
+
+
+
+            <div class="inputform">
+                <span><ion-icon name="call-outline"></ion-icon></span>
+                <input type="nunber" placeholder="telefone">
+            </div>
+          <button>ENVIAR</button>
+
+
+
+
+        </form>
+    </div> 
+
+
+
+
+
+    </section>
+
+
+
+    <div class="footer-diagonal">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+        </svg>
+    </div>
+    <footer class="main_footer container">
+        
+        <div class="content">
+            
+            <div class="colfooter">
+                
+                <h4 class="titleFooter">Menu</h4>
+                
+                <ul>
+                
+                  <li><a href="#" title="Página Inícial">Página Inícial</a></li>
+                  <li><a href="#" title="Sobre a Empresa">Sobre a Empresa</a></li>
+                  <li><a href="#" title="Galeria de Fotos">Galeria de Fotos</a></li>
+                  <li><a href="#" title="Fale Conosco">Fale Conosco</a></li>
+                
+                </ul>
+            
+            </div><!--Col Footer 1-->        
+            
+            <div class="colfooter">
+               
+               <h4 class="titleFooter">Contato</h4>
+               <p><i class="icon icon-mail"></i> contato@seusite.com.br</p>
+               <p><i class="icon icon-phone"></i> 21 90000-0000</p>
+               <p><i class="icon icon-whatsapp"></i> 21 90000-0000</p>
+            
+            </div><!--Col Footer 2-->
+            
+            <div class="colfooter">
+               
+                <h4 class="titleFooter">Redes Sociais</h4>
+                
+                <a href="#" class="redesocial"><span> <ion-icon name="logo-facebook"></ion-icon>  /Over-Road</span></a>            
+                <a href="#" class="redesocial"><span> <ion-icon name="logo-instagram"></ion-icon>  /Over-Road</span></a>            
+                <a href="#" class="redesocial"><span> <ion-icon name="logo-twitter"></ion-icon>  /Over-Road</span></a>            
+                <a href="#" class="redesocial"><span> <ion-icon name="logo-pinterest"></ion-icon>  /Over-Road</span></a>  
+            
+            </form>
+            
+            </div><!--Col Footer 3-->
+            
+            <div class="clear"></div>
+        
+        </div><!--Contant-->
+        
+        <div class="main_footer_copy">
+            
+            
+        </div>
+    </footer>
+
+    
+    
+    
+
+
+
+   
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
